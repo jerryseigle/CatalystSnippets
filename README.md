@@ -1,5 +1,5 @@
-## macOS Catalyst Snippets
-### Popup Modal
+## macOS Catalyst Snippets - Popup Modal
+### 1. Add to button action or use another method to call this function
 ````
 @IBAction func basicTriggeringOption(sender: Any) {
       // Popup modal
@@ -15,7 +15,5 @@
 Note if you are presenting this popup modal after selecting a system menu item, there may be a need to refresh the system menu.
 This refresh would be done from the ViewController class where the popup modal is created or controlled
 
-````
-// Refresh the menu
-UIMenuSystem.main.setNeedsRebuild()
-````
+## Video Tutorial
+youtube link
