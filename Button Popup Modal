@@ -1,0 +1,15 @@
+@IBAction func basicTriggeringOption(sender: Any) {
+      // Popup modal
+      let storyboard : UIStoryboard = UIStoryboard(name: "ProfileScreen", bundle: nil)
+      let popupVC = storyboard.instantiateViewController(withIdentifier: "hello") as! ProfileViewController
+      popupVC.modalPresentationStyle = .formSheet
+      popupVC.modalTransitionStyle = .crossDissolve
+      popupVC.preferredContentSize = CGSize(width: 480, height: 150)
+      present(popupVC, animated: true, completion: nil)
+}
+
+//|------------------ Remove the lines below -------------------------|
+// Note if you are presenting this popup modal after selecting
+// a system menu item, there may be a need to refresh the system menu
+/// Refresh the menu
+UIMenuSystem.main.setNeedsRebuild()
