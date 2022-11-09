@@ -8,3 +8,8 @@
 - UIView created by code and in storyboard (in Swifth) | React Native
 - Native Popup modal | native and React Native
 - Popup Button with menu | native and React Native
+
+### Bonus
+- React Native create bundle for production release | how to add the bundle
+- Codepush example with swift project
+- Video example
